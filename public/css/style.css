@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to right top, #051937, #012c60, #00408c, #0055bb, #126aeb);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: rgb(63, 63, 63);
+}
+
+
+/* ===========  App Canvas    ============== */
+.app-canvas {
+    background-color: #f8faff;
+    padding: 2em;
+    width: 30em;
+    margin: 2em auto;
+
+    border-radius: .5em;
+}
+
+h1 {
+    /* margin: 1em 0; */
+    font-size: 2.1em;
+}
+
+.date, 
+.today-task {
+    margin-bottom: 2em;
+}
+
+/* ------ Form ------ */
+.dummy-list {
+    position: relative;
+}
+
+.dummy-list > div {
+    margin: .5em 0;
+}
+
+/* List box */
+.list {
+    padding: 1.5em 1.5em 1.5em 0;
+    background-color: #ffffff;
+    font-size: 1.1em;
+
+    display: flex;
+}
+
+/* Checkbox */
+.list input[type="checkbox"] {
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0 1em;
+}
+
+
+/* -------- Form -------- */
+.form {
+    margin-top: 2em;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.new-list-ip {
+    border: 1px solid #fff;
+    outline: none;
+
+    border-bottom: 1px solid blueviolet;
+    padding: 1em;
+    width: 80%;
+}
+
+/* Add button */
+.add-btn  {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    font-size: 1.4em;
+    
+    border: 1px solid #0669ff;
+    background-color: #0669ff;
+    color: #fff;
+    cursor: pointer;
+
+    /* position: absolute; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
